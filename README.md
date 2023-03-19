@@ -12,7 +12,7 @@ macOS: 12.6.3
 |--|--|
 |CPU|I5-10400(f)|
 |内存|24G 2666Mhz 混搭 开启 XMP|
-|显卡|蓝宝石 Rx 570 8G|
+|显卡|蓝宝石 RX 570 8G|
 |网卡|Intel AX200|
 |SSD|移速 512GN2000|
 
@@ -24,3 +24,6 @@ macOS: 12.6.3
 - [x] Handoff(接力)/iMessage/FaceTime
 - [x] 显卡硬解
 - [x] 唤醒/休眠
+
+## 注意
+请自行通过 GenSMBIOS 生成 Mac 相关数据，参考 [这篇文章](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#choose-a-mac-address)。
